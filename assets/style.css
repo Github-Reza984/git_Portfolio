@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+body {
+
+	margin: 0;
+	padding: 0;
+	font-family: 'Raleway', sans-serif;
+	background-image: url(./images/swirl_pattern.png);
+
+}
+
+@viewport {
+
+	zoom: 1.0;
+	width: extend-to-zoom;
+}
+
+@-ms-viewport {
+
+	width: extend-to-zoom;
+	zoom: 1.0;
+}
+
+* {
+
+	box-sizing: border-box;
+}
+
+header {
+
+	background-image: url(./images/Gunung.jpg);
+	background-position: bottom;
+	background-size: cover;
+	height: 500px;
+	padding: 5px;
+	margin: 0;
+	
+}
+
+header h1 {
+
+	margin-top: 80px;
+	margin-left: 100px;
+	color: white;
+	border-radius: 5px;
+	border: 1px solid #A3E6DA;
+	display: inline-block;
+	background: none;
+	box-shadow: 5px 5px 3px grey;
+	padding: 10px;
+	transition: 1s;
+
+}
+
+header h1:hover {
+
+	background-color: orange;
+	color: white;
+}
+
+
+
+
+nav li {
+
+	display: inline-block;
+	font-size: 10px;
+	float: right;
+	margin-bottom: 80px;
+	margin-left: 30px;
+	margin-right: 20px;
+	
+
+}
+
+li a {
+
+	font-size: 15px;
+	border: 1px solid #A3E6DA;
+	background-color: none;
+	border-radius: 10px;
+	padding: 10px;
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+	box-shadow: 5px 5px 3px black;
+	transition: 1s;
+}
+
+li a:hover {
+
+	background-color: orange;
+	font-style: italic;
+	color: whitesmoke;
+}
+
+.container {
+
+	width: 500px;
+	margin: 0 auto;
+	padding: 5px;
+	background: none;
+	
+}
+
+.content {
+
+	float: left;
+}
+
+.content img {
+
+
+	border-radius: 20px;
+	box-shadow: 3px 3px 3px grey;
+}
+
+.content h1 {
+
+	border-bottom: 1px solid #A3E6DA;
+	box-shadow: 5px 5px 3px grey;
+	border-radius: 10px;
+	padding: 2px;
+	display: inline-block;
+
+}
+
+.content p {
+
+	text-align: center;
+}
+
+
+
+.link--footer a {
+
+	display: inline-block;
+	float: right;
+	margin: 15px;
+	font-size: 16px;
+	text-decoration: none;
+	background: none;
+	border-radius: 10px;
+	border: 1px solid #A3E6DA;
+	padding: 10px;
+	box-shadow: 5px 5px 3px grey;
+	transition: 1s;
+
+
+
+}
+
+.link--footer a:hover {
+
+	background-color: black;
+	font-style: italic;
+	color: whitesmoke;
+
+}
+
+
+
+@media only screen and (max-width: 480px) {
+
+	body {
+
+		width: 100%;
+	}
+
+	
+}
+
